@@ -1,0 +1,39 @@
+
+
+void main()
+{
+    int rollno;
+    printf("\n enter numbers for a and b and c:\n");
+    scanf("%d%d%d",&a,&b,&c);
+    printf(a==b&&b==c?"all are equal":a>b&&a>c?"a is bigger":b>c?"b is bigger":"c is bigger");
+}
+
+
+
+
+-------------------------------------xxxxxxx----------------------------
+type casting
+------------
+two types:
+     1.impilcit && 2.explict type casting
+implicit typecasting::
+main()
+{
+int a=2.3;                            0/p::a=2  b=10.0000   c=A//ascii value printed
+float=10;
+char=65;
+pf("a=%d",a);
+pf("b=%f",b);
+pf("c=%c",c);
+}
+
+
+
+
+we can pass arguments to main those are called comand line arguments;
+syntax for writing main()
+int main(int argc,char*argv[])
+{
+printf("\n hello world");
+return(0);
+}
