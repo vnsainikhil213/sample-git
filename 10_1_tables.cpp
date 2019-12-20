@@ -2,7 +2,7 @@
 int main()
 {
 	int a,b;
-	for(a=10;a>=1;a--)
+	for(a=1;a<=10;a++)
 	{
 		for(b=1;b<=20;b++)
 		{

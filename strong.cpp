@@ -17,6 +17,7 @@ int main()
 	sum=sum+fact;
 	n=n/10;
 }
+printf("\nthe sum is:%d\n",sum);
 if(sum==temp)
 {
 	printf("\nstrong\n");

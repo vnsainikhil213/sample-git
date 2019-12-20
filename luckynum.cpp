@@ -5,18 +5,20 @@ int main()
 	printf("\nenter the n value\n");
 	scanf("%d",&n);
     temp=n;
-	while(n>0)
+	test:while(n>0)
 	{
 		r=n%10;
-		sum=(sum*10)+r;
+		sum=sum+r;
 		n=n/10;
 	}
-	 if(sum==temp)
+	 if(sum<10)
 	 {
-	 	printf("%d is palindrom",temp);
-	  } 
-	  else
-	  {
-	  	printf("not a palindrom");
-	  }
+	 	printf("\nthe lucky number is:%d\n",sum);
+	 }
+	 else
+	 {
+	 	n=sum;
+	 	sum=0;
+	 	goto test;
+	 }
 }

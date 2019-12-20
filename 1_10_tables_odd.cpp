@@ -2,7 +2,9 @@
 int main()
 {
 	int a,b;
-	for(a=10;a>=1;a--)
+	for(a=1;a<=10;a++)
+	{		
+	if(a%2!=0)
 	{
 		for(b=1;b<=20;b++)
 		{
@@ -11,3 +13,4 @@ int main()
 		printf("\n");
 	}
 }
+	}
